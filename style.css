@@ -1,0 +1,93 @@
+*{
+ margin: 0;  
+ padding: 0; 
+ box-sizing: border-box;
+}
+
+body{
+ background: linear-gradient(135deg, #1a1a1a, #3a3a3a, #f7e97f);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px;
+   background: linear-gradient(135deg, #b2a7a7, #4a4a4a, #5f5f5f);
+  box-shadow: 0 0 25px rgba(189, 169, 123, 0.996);
+  transition:  0.5s ease;
+  width: 22%;
+  height: 52%;
+  margin: 11% 37%;
+
+}
+
+.bulb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+img{
+    height: 260px;
+}
+
+#btn{ 
+ display: flex;
+ margin: 0 46%;
+gap: 20px;
+}
+
+#off{
+width: 94px;
+height: 25px;
+    text-transform: uppercase;
+ border: none; 
+font-size: 15px;
+font-weight: 800;
+background-color: rgb(255, 46, 46);
+color: rgb(255, 240, 240);
+border-radius: 5px;
+cursor: pointer;
+}
+
+#on{
+    width: 94px;
+height: 25px;
+ text-transform: uppercase;
+  border: none; 
+  font-size: 15px;
+font-weight: 800;
+background-color: rgb(70, 206, 70);
+color: rgb(255, 240, 240);
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+#off:hover{
+  opacity: 0.6;
+  background-color: darkred;
+}
+
+
+
+  #on:hover{
+    opacity: 0.6;
+  background-color:rgb(0, 81, 0);
+  }
+
+
+  .glow {
+  filter: drop-shadow(0 0 25px #f9e65c)
+          drop-shadow(0 0 50px #f7d94c)
+          drop-shadow(0 0 100px #f5c94a);
+  transform: scale(1.05);
+}
+
+
+
+
